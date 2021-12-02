@@ -1,0 +1,640 @@
+/* Header starts here */
+
+@font-face {
+    font-family: poppins;
+    src: url('../assets/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: archivo;
+    src: url('../assets/fonts/Archivo/Archivo-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: nunito;
+    src: url('../assets/fonts/Nunito/Nunito-Regular.ttf');
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: montserrat regular;
+    src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: archivo bold;
+    src: url('../assets/fonts/Archivo/static/Archivo/Archivo-ExtraBold.ttf');
+}
+
+.bg1{
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0) ),url(../assets/images/bigburgere.png);
+    height: 745px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.mainHead{
+    font-size: 90px;
+    color: white;
+    font-family: archivo;
+    font-weight: 600;
+    line-height: 100px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.headPara{
+    margin-top: 25px;
+    margin-left: 40px;
+    color: white;
+    font-family: nunito;
+    font-size: 28px;
+    
+}
+
+.logo{
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.nav{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.nav li a{
+    margin: 10px;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btn{
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    margin-left: 40px;
+    font-size: 20px;
+    
+    margin-top: 25px;
+    background-color: #f64b3c;
+    padding: 10px 20px;
+    width: 270px;
+    border-radius: 40px;
+}
+
+/* Section two starts here */
+
+.bg2{
+    background-color: rgba(246,238,223,1);
+    height: 745px;
+    
+}
+
+.head2{
+    text-align: center;
+    font-family: archivo;
+    color: #f64b3c;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 50px;
+}
+
+.para2{
+    text-align: center;
+    font-family: montserrat regular;
+    color: #f64b3c;
+    /* font-weight: 100; */
+    font-size: 20px;
+    /* width: 50px; */
+    /* margin-top: 50px; */
+}
+
+.onion{
+    width: 30%;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+.fries{
+    width: 40%;
+    position: relative;
+    top: 200px;
+    right: 140px;
+}
+
+.burger{
+    width: 50%;
+    /* used to filp image horizentally */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    position: relative;
+    top: 85px;
+    left: 100px;
+}
+
+
+
+.personImage{
+    border-radius: 50%;
+    width: 60%;
+    /* border: 2px solid black; */
+    /* margin-left: 10%; */
+    margin-top: 10%;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.imageName{
+    text-align: center;
+    font-family: archivo;
+    color: #f64b3c;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.imageDesignation{
+    text-align: center;
+    font-family: archivo;
+    color: #f64b3c;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.leaf, .shimla, .mashroom{
+    width: 25%;
+}
+
+.shimla{
+    position: relative;
+    /* left: 350px;
+    bottom:200px; */
+    left: 96%;
+    bottom: 200%;
+}
+
+.mashroom{
+    transform: rotate(75deg);
+    position: relative;
+    top: 40%;
+    left: 89%;
+    width: 20%;
+}
+
+.leaf{
+    transform: rotate(40deg);
+    position: relative;
+    left: 85%;
+    top: 40%;
+}
+
+.bg3{
+    background-color: #f64b3c;
+    height: 745px;
+}
+
+.burger3{
+    margin-top: 35%;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.head3{
+    font-family: archivo;
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 40%;
+}
+
+.para3{
+    font-family: nunito;
+    color: white;
+    font-size: 25px;
+}
+
+.btn3{
+    color: #f64b3c;
+    text-transform: uppercase;
+    font-family: montserrat;
+    /* margin-left: 40px; */
+    font-size: 20px;
+    text-align: center;
+    
+    margin-top: 25px;
+    background-color: white;
+    padding: 10px 20px;
+    width: 270px;
+    border-radius: 40px;
+}
+
+/* section 4 started */
+
+.bg4{
+    background-color: #f6eedf;
+    height: 745px;
+}
+
+.burger4{
+    margin-left: 15%;
+    margin-top: 30%;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.head4{
+    margin-left: 15%;
+    font-family: archivo;
+    color: #f64b3c;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 38%
+}
+
+.para4{
+    margin-left: 15%;
+    font-family: nunito;
+    color: #f64b3c;
+    font-size: 25px;
+}
+
+.btn4{
+    margin-left: 15%;
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    /* margin-left: 40px; */
+    font-size: 20px;
+    /* text-align: center; */
+    
+    margin-top: 25px;
+    background-color: #f64b3c;
+    padding: 10px 20px;
+    width: 270px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.shimla4{
+    width: 10%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: relative;
+    bottom: 52%;
+    right: 3%;
+}
+
+.onion4{
+    width: 15%;
+    transform: rotate(100deg);
+
+    position: relative;
+    top: 5%;
+    left: 8%;
+}
+
+.mashroom4{
+    width: 10%;
+    transform: rotate(195deg);
+    position: relative;
+    top: 2%;
+    left: 60%;
+}
+
+.bgburger4{
+    width: 25%;
+    position: relative;
+    left: 45%;
+    bottom: 66%;
+}
+
+.fries4{
+    width: 20%;
+    transform: rotate(-40deg);
+    
+    position: relative;
+    bottom: 2%;
+    left: 80%;
+}
+
+.leaf4{
+    width: 15%;
+    transform: rotate(20deg);
+    position: relative;
+    bottom: 15%;
+}
+
+/* section 5 starts here */
+
+.bg5{
+    background-color: #f64b3c;
+    height: 745px;
+}
+
+.head5{
+    /* margin-left: 15%; */
+    text-align: center;
+    font-family: archivo;
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 5%  
+}
+
+.para5{
+    font-family: montserrat regular;
+    color: white;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.statsHead{
+    color: white;
+    font-family: archivo;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    /* padding: 10px; */
+
+    position: relative;
+    top: 75px;
+}
+
+.statsNumber{
+    color: white;
+    font-family: archivo;
+    font-weight: bolder;
+    font-size: 95px;
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    
+    position: relative;
+    bottom: 30%;
+}
+
+.disc5{
+    /* color: white; */
+    font-family: montserrat;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+
+    position: relative;
+    bottom: 60%;
+}
+
+/* section 6 starts here */
+
+.bg6{
+    background-color: #f6eedf;
+    height: 745px;
+}
+
+.head6{
+    text-align: center;
+    font-family: archivo;
+    color: #f64b3c;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 5%  
+}
+
+.discHead6{
+    font-family: archivo bold;
+    color: #f64b3c;
+    text-transform: uppercase;
+    font-size: 25px;
+    /* font-weight: bolder; */
+    text-align: center;
+    margin-top: 30px;
+    /* border: 2px solid black; */
+}
+
+.shortBurger6{
+    /* border: 2px solid black; */
+    width: 50%;
+    margin-left: 25%;
+}
+
+.discPrice6{
+    font-family: archivo bold;
+    color: #f64b3c;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.discPara6{
+    font-family: archivo;
+    color: #f64b3c;
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    /* border: 2px solid black; */
+    width: 120%;
+    position: relative;
+    right: 10%;
+    /* font-weight: 400; */
+    text-align: center;
+    margin-top: 20px;
+    /* width: 70%; */
+}
+
+.border{
+    background-color: white;
+    border-radius: 10px;
+    width: 22%;
+
+    position: relative;
+    right: 8%;
+    /* width: 250px; */
+    /* padding: 100px; */
+
+    z-index: 2;
+    
+}
+
+.space6{
+    margin-top: 7%;
+}
+
+.btn6{
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    /* margin-left: 40px; */
+    font-size: 18px;
+    /* text-align: center; */
+    
+    margin-top: 25px;
+    
+    background-color: #f64b3c;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.bgburger{
+    width: 200%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    position: relative;
+    right: 140%;
+    top: 10px;
+}   
+
+.onion6{
+    width: 100%;
+    transform: rotate(22deg);
+
+    position: relative;
+    left: 190%;
+    top: 120%;
+}
+
+.shimla6{
+    width: 100%;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    position: relative;
+    right: 170%;
+    top: 90%;
+}
+
+.leaf6{
+    width: 100%;
+
+    transform: rotate(15deg);
+
+    position: relative;
+    top: 60%;
+    right: 25%;
+}
+
+.mashroom6{
+    width: 30%;
+    transform: rotate(-160deg);
+
+    position: relative;
+    top: 100%;
+    right: 10%;
+}
+
+.fries6{
+    width: 70%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    position: relative;
+    left: 590%;
+    bottom: 50%;
+
+    z-index: 1;
+}
+
+
+/* Section-7 Starts from here */
+
+.bg-7{
+    background-image: linear-gradient(rgb(246, 75, 60, 0.8), rgb(246, 75, 60, 0.8)), url('../assets/images/background1.png');
+
+    height: 796px;
+}
+
+.head-7{
+    color: white;
+    font-family: archivo bold;
+    /* font-weight: 500; */
+    font-size: 35px;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.name-7{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/* Section-8 Starts from here */
+
+
+/* Section-9 Starts from here */
+
+.bg-9{
+    background-color: #222222;
+    height: 650px;
+}
+
+.title-9{
+    margin-top: 40%;
+    color: white;
+    font-family: archivo bold;
+    font-size: 25px;
+}
+
+.titlePara-9{
+    color: white;
+    width: 80%;
+    font-family: nunito;
+    font-size: 18px;
+
+    margin-top: 2%;
+}
+
+.insta-9, .fb-9, .twitter-9, .whatsapp-9{
+    margin-top: 2%;
+    width: 6%;
+}
+
+.about-9, .services-9, .others-9{
+    margin-top: 129%;
+    color: white;
+    font-family: archivo bold;
+    font-size: 25px;
+}
+
+.aboutPara-9, .servicesPara-9, .othersPara-9{
+    color: white;
+    /* width: 85%; */
+    font-family: nunito;
+    font-size: 18px;
+
+    margin-top: 2%;
+}
+
+.cen{
+    margin-left: 9%;
+}
